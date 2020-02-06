@@ -1,13 +1,15 @@
 //Container
 .container{
   max-width: $max-width;
-  margin: 1rem;
+  // max-width: 100%;
+  margin: auto;
   overflow: hidden;
   padding: 0 2rem;
   margin-top: 6rem;
+  // margin-top: 3.8rem;
   margin-bottom: 3rem;
+  
 }
-
 
 //Text-styles
 .x-large{
@@ -101,7 +103,28 @@
         color: $light-text-color;
     }
   }
+  
+  // Alerts
+  .alert{
+    padding: 0.8rem;
+    margin: 1rem;
+    opacity: 0.9;
+    background: $light-color;
+    color: $dark-text-color;
 
+    &.alert-primary{
+      @include set-background($primary-color);
+    }
+    &.alert-dark{
+      @include set-background($dark-color);
+    }
+    &.alert-success{
+      @include set-background($success-color);
+    }
+    &.alert-danger{
+      @include set-background($danger-color);
+    }
+  }
 
   .dark-overlay{
       height: 100%;

@@ -1,6 +1,66 @@
+.m-1 {
+  margin: 1rem; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.p-1 {
+  padding: 1rem; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.m-2 {
+  margin: 2rem; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.p-2 {
+  padding: 2rem; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.m-3 {
+  margin: 3rem; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.p-3 {
+  padding: 3rem; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.m-4 {
+  margin: 4rem; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.p-4 {
+  padding: 4rem; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.m-5 {
+  margin: 5rem; }
+
+.my-5 {
+  margin: 5rem 0; }
+
+.p-5 {
+  padding: 5rem; }
+
+.py-5 {
+  padding: 5rem 0; }
+
 .container {
   max-width: 1100px;
-  margin: 1rem;
+  margin: auto;
   overflow: hidden;
   padding: 0 2rem;
   margin-top: 6rem;
@@ -86,6 +146,25 @@
     background: #626d78;
     color: #fff; }
 
+.alert {
+  padding: 0.8rem;
+  margin: 1rem;
+  opacity: 0.9;
+  background: #b4cfeef4;
+  color: #333; }
+  .alert.alert-primary {
+    background-color: #17632e;
+    color: #fff; }
+  .alert.alert-dark {
+    background-color: #343a40;
+    color: #fff; }
+  .alert.alert-success {
+    background-color: #28a745;
+    color: #fff; }
+  .alert.alert-danger {
+    background-color: #dc3545;
+    color: #fff; }
+
 .dark-overlay {
   height: 100%;
   width: 100%;
@@ -93,6 +172,21 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8); }
+
+.form-group {
+  margin: 0.6rem 0; }
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"],
+.form input[type="date"],
+.form select,
+.form textarea {
+  display: block;
+  width: 50%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc; }
 
 * {
   -webkit-box-sizing: border-box;
