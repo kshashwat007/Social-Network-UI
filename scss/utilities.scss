@@ -44,11 +44,11 @@
   .btn{
       display: inline-block;
       background: $light-color;
-      color: dark-text-color;
+      color: $dark-text-color;
       padding: 0.4rem 1.3rem;
       border: none;
       cursor: pointer;
-      font-size: 1rem;
+      font-size: 1.5rem;
       margin-right: 0.5rem;
       outline: none;
       transition: all 0.2s ease-in;
@@ -56,7 +56,7 @@
       &.btn-primary{
           @include set-background($primary-color);
           &:hover{
-              background: lighten($primary-color, 5%);
+              background: lighten($primary-color, 10%);
           }
       }
 
@@ -94,5 +94,5 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-color: rgba(0,0,0,0.6);
+      background-color: rgba(0,0,0,0.8);
   }
