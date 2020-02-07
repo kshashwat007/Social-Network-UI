@@ -40,10 +40,15 @@
 .lead{
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: $light-text-color;
 }
 
 .text-primary{
   color: $primary-color;
+}
+
+.text-optional{
+  color: $optional-color;
 }
 
 .text-light{

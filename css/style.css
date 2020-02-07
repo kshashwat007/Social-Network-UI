@@ -91,10 +91,14 @@
 
 .lead {
   font-size: 1.5rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color: #fff; }
 
 .text-primary {
   color: #17632e; }
+
+.text-optional {
+  color: #10d0f1; }
 
 .text-light {
   color: #fff; }
@@ -247,6 +251,9 @@ body {
   -ms-flex-direction: row;
   flex-direction: row;
   color: #fff; }
+
+.profiles-body {
+  background-color: #354152; }
 
 a {
   text-decoration: none;
