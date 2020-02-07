@@ -1,14 +1,21 @@
 //Container
 .container{
-  max-width: $max-width;
-  // max-width: 100%;
-  margin: auto;
-  overflow: hidden;
-  padding: 0 2rem;
-  margin-top: 6rem;
-  // margin-top: 3.8rem;
-  margin-bottom: 3rem;
-  
+  // max-width: $max-width;
+  // margin: auto;
+  // overflow: hidden;
+  // padding: 2rem 2rem;
+  // margin-top: 6rem;
+  // border-radius: 1rem;
+    box-shadow: 0 0 250px #000;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin: auto;
+    margin-top: 6rem;
+
+    a{
+      color: $light-text-color;
+      text-decoration: underline;
+    }
 }
 
 //Text-styles
@@ -19,9 +26,11 @@
 }
 
 .large{
-    font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 1rem;
+    font-size: 2.75rem;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 .lead{
@@ -31,6 +40,10 @@
 
 .text-primary{
   color: $primary-color;
+}
+
+.text-light{
+  color: $light-text-color;
 }
 
 //Backgrounds

@@ -59,12 +59,15 @@
   padding: 5rem 0; }
 
 .container {
-  max-width: 1100px;
+  -webkit-box-shadow: 0 0 250px #000;
+  box-shadow: 0 0 250px #000;
+  text-align: center;
+  padding: 4rem 2rem;
   margin: auto;
-  overflow: hidden;
-  padding: 0 2rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem; }
+  margin-top: 6rem; }
+  .container a {
+    color: #fff;
+    text-decoration: underline; }
 
 .x-large {
   font-size: 4rem;
@@ -72,9 +75,11 @@
   margin-bottom: 1rem; }
 
 .large {
-  font-size: 3rem;
   line-height: 1.2;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-size: 2.75rem;
+  font-weight: 100;
+  text-transform: uppercase; }
 
 .lead {
   font-size: 1.5rem;
@@ -82,6 +87,9 @@
 
 .text-primary {
   color: #17632e; }
+
+.text-light {
+  color: #fff; }
 
 .bg-primary {
   background-color: #17632e;
@@ -176,6 +184,19 @@
 .form-group {
   margin: 0.6rem 0; }
 
+.form .btn {
+  background-image: -webkit-linear-gradient(290deg, #8ceabb 0%, #378f7b 100%);
+  background-image: -o-linear-gradient(290deg, #8ceabb 0%, #378f7b 100%);
+  background-image: linear-gradient(160deg, #8ceabb 0%, #378f7b 100%);
+  color: #fff;
+  width: 100%; }
+
+.form input {
+  border: 1px solid #242c37;
+  border-radius: 999px;
+  background-color: transparent;
+  text-align: center; }
+
 .form input[type="text"],
 .form input[type="email"],
 .form input[type="password"],
@@ -183,10 +204,11 @@
 .form select,
 .form textarea {
   display: block;
-  width: 50%;
+  width: 100%;
   padding: 0.4rem;
-  font-size: 1.2rem;
-  border: 1px solid #ccc; }
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  color: #fff; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -199,7 +221,20 @@ body {
   font-size: 1rem;
   line-height: 1.6;
   background-color: white;
-  color: dark-text-color; }
+  color: #fff; }
+
+.align {
+  background-color: #354152;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
 
 a {
   text-decoration: none;
