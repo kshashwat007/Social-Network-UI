@@ -1,12 +1,16 @@
 //Container
 .container{
-  // max-width: $max-width;
-  // margin: auto;
-  // overflow: hidden;
-  // padding: 2rem 2rem;
-  // margin-top: 6rem;
-  // border-radius: 1rem;
-    box-shadow: 0 0 250px #000;
+  max-width: $max-width;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 2rem;
+  margin-top: 6rem;
+  border-radius: 1rem;
+    
+}
+
+.container-form{
+  box-shadow: 0 0 250px #000;
     text-align: center;
     padding: 4rem 2rem;
     margin: auto;
@@ -44,6 +48,10 @@
 
 .text-light{
   color: $light-text-color;
+}
+
+.round-img{
+  border-radius: 50%;
 }
 
 //Backgrounds

@@ -13,7 +13,7 @@ body{
     font-size: 1rem;
     line-height: 1.6;
     background-color: white;
-    color: $light-text-color;
+    color: $dark-text-color;
 }
 
 .align{
@@ -21,6 +21,7 @@ body{
     align-items: center;
      display: flex;
     flex-direction: row;
+    color: $light-text-color;
 }
 
 a{
@@ -80,4 +81,15 @@ img{
         justify-content: center;
         text-align: center;
     }
+}
+
+// Profiles
+.profile{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 1rem;
 }
