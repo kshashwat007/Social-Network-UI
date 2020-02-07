@@ -98,7 +98,7 @@
   color: #17632e; }
 
 .text-optional {
-  color: #10d0f1; }
+  color: #16a6c0; }
 
 .text-light {
   color: #fff; }
@@ -108,6 +108,10 @@
 
 .bg-primary {
   background-color: #17632e;
+  color: #fff; }
+
+.bg-optional {
+  background-color: #16a6c0;
   color: #fff; }
 
 .bg-light {
@@ -330,3 +334,32 @@ img {
   padding: 1rem;
   line-height: 1.8rem;
   margin-bottom: 1rem; }
+
+.profile-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-template-areas: "top top" "about about" "exp edu" "github github";
+  grid-gap: 1rem; }
+  .profile-grid .profile-top {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: top; }
+  .profile-grid .profile-about {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: about; }
+  .profile-grid .profile-exp {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: exp; }
+  .profile-grid .profile-edu {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+    grid-area: edu; }
+  .profile-grid .profile-github {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: github; }
